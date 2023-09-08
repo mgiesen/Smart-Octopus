@@ -2,12 +2,13 @@
 
 ## Über das Spiel 🎯
 
-Smart Octopus ist ein Mini-Spiel im Browser, konzipiert um kognitive Fähigkeiten wie Arbeitsgedächtnis und mentale Rechenfertigkeiten zu fördern. Je nach gewähltem Schwierigkeitsgrad wird dem Benutzer eine Sequenz von Zahlen für eine begrenzte Zeit präsentiert. Die Aufgabe besteht darin, sich nicht nur die Zahlen zu merken, sondern sie auch mental um eins zu erhöhen und dann die modifizierte Sequenz einzugeben.
+Smart Octopus ist ein [Mini-Spiel](https://mgiesen.github.io/SmartOctopus/) im Browser, konzipiert um kognitive Fähigkeiten wie Arbeitsgedächtnis und mentale Rechenfertigkeiten zu fördern. Je nach gewähltem Schwierigkeitsgrad wird dem Benutzer eine Sequenz von Zahlen für eine begrenzte Zeit präsentiert. Die Aufgabe besteht darin, sich nicht nur die Zahlen zu merken, sondern sie auch mental um eins zu erhöhen und dann die modifizierte Sequenz einzugeben.
 
 ## Wie spielt man? 🎮
 
-1.  **Spielbeginn**: Klicken Sie auf den "Power Button", um das Spiel zu starten.
-2.  **Schwierigkeitsgrad wählen**: Durch einen Klick auf den Octopus können Sie den Schwierigkeitsgrad einstellen. Die Schwierigkeitsstufen sind wie folgt aufgebaut:
+1.  **Spiel Öffnen**: Öffnen Sie das Spiel in Ihrem Browser über folgenden [Link](https://mgiesen.github.io/SmartOctopus/).
+2.  **Spielbeginn**: Klicken Sie auf den "Power Button", um das Spiel zu starten.
+3.  **Schwierigkeitsgrad wählen**: Durch einen Klick auf den Octopus können Sie den Schwierigkeitsgrad einstellen. Die Schwierigkeitsstufen sind wie folgt aufgebaut:
 
     - Retarded Octopus: 3 Zahlen, Anzeigedauer 2000 ms
     - Stupid Octopus: 4 Zahlen, Anzeigedauer 2000 ms
@@ -15,10 +16,10 @@ Smart Octopus ist ein Mini-Spiel im Browser, konzipiert um kognitive Fähigkeite
     - Smart Octopus: 5 Zahlen, Anzeigedauer 1000 ms
     - Clever Octopus: 6 Zahlen, Anzeigedauer 1500 ms
 
-3.  **Beobachten Sie die Zahlen**: Eine Zahlenreihe wird für eine begrenzte Zeit angezeigt.
-4.  **Addieren Sie die Zahlen**: Nach dem Verschwinden der Zahlen erhöhen Sie jede Zahl für sich genommen um eins und geben die neue Sequenz ein.
-5.  **Eingabe**: Verwenden Sie die Zahlenfelder am unteren Bildschirmrand. Korrekte Eingaben werden grün, falsche rot markiert.
-6.  **Spielende**: Die Runde endet, sobald alle Zahlen eingegeben wurden. Danach beginnt automatisch eine neue Runde.
+4.  **Beobachten Sie die Zahlen**: Eine Zahlenreihe wird für eine begrenzte Zeit angezeigt.
+5.  **Addieren Sie die Zahlen**: Nach dem Verschwinden der Zahlen erhöhen Sie jede Zahl für sich genommen um eins und geben die neue Sequenz ein.
+6.  **Eingabe**: Verwenden Sie die Zahlenfelder am unteren Bildschirmrand. Korrekte Eingaben werden grün, falsche rot markiert.
+7.  **Spielende**: Die Runde endet, sobald alle Zahlen eingegeben wurden. Danach beginnt automatisch eine neue Runde.
 
 **Hinweis**: Bei einer angezeigten 9 muss eine 0 eingegeben werden.
 
