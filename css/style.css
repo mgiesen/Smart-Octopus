@@ -158,3 +158,9 @@ body {
 .wrong {
 	color: brown;
 }
+
+@media only screen and (max-width: 768px) {
+	#page_title {
+		margin-top: 25px;
+	}
+}
