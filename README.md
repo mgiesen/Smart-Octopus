@@ -1,36 +1,36 @@
 # Smart Octopus
 
-## Über das Spiel 🎯
+## About the Game 🎯
 
-Smart Octopus ist ein [Mini-Spiel](https://mgiesen.github.io/SmartOctopus/) im Browser, konzipiert um kognitive Fähigkeiten wie Arbeitsgedächtnis und mentale Rechenfertigkeiten zu fördern. Je nach gewähltem Schwierigkeitsgrad wird dem Benutzer eine Sequenz von Zahlen für eine begrenzte Zeit präsentiert. Die Aufgabe besteht darin, sich nicht nur die Zahlen zu merken, sondern sie auch mental um eins zu erhöhen und dann die modifizierte Sequenz einzugeben.
+Smart Octopus is a [mini-game](https://mgiesen.github.io/SmartOctopus/) in the browser, designed to enhance cognitive skills such as working memory and mental arithmetic. Depending on the chosen difficulty level, the user is presented with a sequence of numbers for a limited time. The task is to not only remember the numbers but also to increment them mentally by one and then input the modified sequence.
 
-## Wie spielt man? 🎮
+## How to Play? 🎮
 
-1.  **Spiel Öffnen**: Öffnen Sie das Spiel in Ihrem Browser über folgenden [Link](https://mgiesen.github.io/SmartOctopus/).
-2.  **Spielbeginn**: Klicken Sie auf den "Power Button", um das Spiel zu starten.
-3.  **Schwierigkeitsgrad wählen**: Durch einen Klick auf den Octopus können Sie den Schwierigkeitsgrad einstellen. Die Schwierigkeitsstufen sind wie folgt aufgebaut:
+1.  **Open Game**: Open the game in your browser using this [link](https://mgiesen.github.io/SmartOctopus/).
+2.  **Start Game**: Click on the "Power Button" to start the game.
+3.  **Select Difficulty**: By clicking on the octopus, you can set the level of difficulty. The difficulty levels are as follows:
 
-    - Retarded Octopus: 3 Zahlen, Anzeigedauer 2000 ms
-    - Stupid Octopus: 4 Zahlen, Anzeigedauer 2000 ms
-    - Basic Octopus: 4 Zahlen, Anzeigedauer 1500 ms
-    - Smart Octopus: 5 Zahlen, Anzeigedauer 1000 ms
-    - Clever Octopus: 6 Zahlen, Anzeigedauer 1500 ms
+    - Retarded Octopus: 3 numbers, display duration 2000 ms
+    - Stupid Octopus: 4 numbers, display duration 2000 ms
+    - Basic Octopus: 4 numbers, display duration 1500 ms
+    - Smart Octopus: 5 numbers, display duration 1000 ms
+    - Clever Octopus: 6 numbers, display duration 1500 ms
 
-4.  **Beobachten Sie die Zahlen**: Eine Zahlenreihe wird für eine begrenzte Zeit angezeigt.
-5.  **Addieren Sie die Zahlen**: Nach dem Verschwinden der Zahlen erhöhen Sie jede Zahl für sich genommen um eins und geben die neue Sequenz ein.
-6.  **Eingabe**: Verwenden Sie die Zahlenfelder am unteren Bildschirmrand. Korrekte Eingaben werden grün, falsche rot markiert.
-7.  **Spielende**: Die Runde endet, sobald alle Zahlen eingegeben wurden. Danach beginnt automatisch eine neue Runde.
+4.  **Watch the Numbers**: A sequence of numbers will be displayed for a limited time.
+5.  **Add the Numbers**: After the numbers disappear, increment each number by one and input the new sequence.
+6.  **Input**: Use the number fields at the bottom of the screen. Correct entries are marked green, incorrect ones red.
+7.  **End of Game**: The round ends once all numbers have been input. A new round automatically starts.
 
-**Hinweis**: Bei einer angezeigten 9 muss eine 0 eingegeben werden.
+**Note**: When a 9 is displayed, input a 0.
 
 ## Motivation 💡
 
-Smart Octopus basiert auf dem Prinzip der „dualen Aufgabe“. Es fordert nicht nur das Arbeitsgedächtnis durch das Merken von Zahlen, sondern auch die mentalen Rechenfertigkeiten durch die Addition.
+Smart Octopus is based on the principle of the "dual task". It challenges not only working memory through remembering numbers but also mental arithmetic skills through addition.
 
-Das Spiel beansprucht das Arbeitsgedächtnis intensiv, indem es den Spieler dazu anregt, mehrere Zahlen simultan im Kopf zu behalten und gleichzeitig mathematische Operationen auszuführen. Forschungsergebnisse in der kognitiven Psychologie deuten darauf hin, dass derartige Übungen das Arbeitsgedächtnis stärken können.
+The game intensively exercises working memory by prompting the player to hold multiple numbers in their head while simultaneously performing mathematical operations. Research in cognitive psychology suggests that such exercises can strengthen working memory.
 
-Inspiration für das Spiel war ein [Veritasium Video](https://www.youtube.com/watch?v=UBVV8pch1dM) vom 02.03.2017. Die Theoretische Grundlage stammt aus dem Buch "Schnelles Denken, langsames Denken" von Daniel Kahneman.
+Inspiration for the game came from a [Veritasium YouTube Video](https://www.youtube.com/watch?v=UBVV8pch1dM) published on March 2nd, 2017. The theoretical foundation comes from the book "Schnelles Denken, langsames Denken" by Daniel Kahneman.
 
-## Zum Quellcode 🛠️
+## About the Source Code 🛠️
 
-Ursprünglich als schnelles Abendprojekt konzipiert, war der Code nicht für eine Veröffentlichung auf GitHub vorgesehen. Eine Refaktorisierung sowie eine verbesserte Dokumentation sind notwendig. Zukünftige Erweiterungen sind denkbar. Beiträge zur Weiterentwicklung sind herzlich willkommen.
+Originally designed as a quick evening project, the code was not intended for a GitHub release. Refactoring and improved documentation are necessary. Future extensions are conceivable. Contributions to further development are warmly welcomed.
