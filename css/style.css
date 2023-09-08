@@ -1,0 +1,160 @@
+html {
+	background-color: black;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#app {
+	position: relative;
+	margin: auto;
+	padding: 30px;
+	max-width: 400px;
+}
+
+.full_screen_message {
+	display: none;
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.full_screen_message p {
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+#difficulty_display {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	margin-top: 20px;
+}
+
+#difficulty_display > div {
+	background-color: white;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	border: 2px solid gray;
+}
+
+.difficulty_wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+#page_title {
+	position: relative;
+	width: 100%;
+	margin-top: 80px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+#page_title h1 {
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0;
+}
+
+#page_title p {
+	margin: 0;
+	margin-top: 20px;
+}
+
+#page_title img {
+	width: 90px;
+	margin: 0;
+	margin-top: 15px;
+}
+
+#digits {
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 5px;
+}
+
+#digits h1 {
+	width: 100%;
+	margin: 0;
+	flex-wrap: nowrap;
+	font-size: 50px;
+}
+
+#touch_input {
+	display: grid;
+	gap: 3%;
+	grid-template-areas: ". . ." ". . ." ". . ." ". . .";
+	justify-content: center;
+	grid-auto-flow: row;
+	grid-auto-columns: 1fr;
+	grid-auto-rows: 1fr;
+}
+
+#status_wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+#status_icon {
+	z-index: 2;
+}
+
+#progress_indicator {
+	background-color: rgba(0, 166, 255, 0.543);
+	left: 0;
+	width: 0;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+#touch_input > div {
+	background-color: rgba(50, 50, 50, 0.5);
+	padding: 20%;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	font-size: 30px;
+	justify-content: center;
+	color: rgb(90, 90, 90);
+}
+
+#touch_input > div > img {
+	width: 30px;
+}
+
+.correct {
+	color: rgb(52, 228, 169);
+}
+
+.wrong {
+	color: brown;
+}

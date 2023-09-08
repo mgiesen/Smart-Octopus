@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="apple-touch-icon" href="images/icon/app_icon.png">
+
+    <title>Smart Octopus</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="full_screen_message" id="screen_rotation">
+        <p>Bitte halte dein Smartphone senkrecht</p>
+        <img src="images/rotate-device.svg" width="70px">
+    </div>
+
+    <div id="app">
+
+        <div id="page_title">
+            <div class="difficulty_wrapper">
+                <h1 id="difficulty">Smart</h1>
+                <h1>Octopus</h1>
+            </div>
+            <img src="images/logo.svg">
+            <div id="difficulty_display">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+   
+        </div>
+
+        <div id="digits"></div>
+    
+        <div id="touch_input">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div id="status_wrapper">
+                <img id="status_icon">
+                <div id="progress_indicator"></div>
+            </div>
+            <div>0</div>
+            <div onclick="start_new_game()">
+                <img id="btn_start" src="images/start.svg">
+            </div>
+        </div>
+            
+
+    </div>
+
+    <script type="text/javascript" src="js/game.js"></script>
+
+</body>
+
+</html>
