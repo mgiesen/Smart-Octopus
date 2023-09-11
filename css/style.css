@@ -24,21 +24,6 @@ body {
 	max-width: 400px;
 }
 
-.full_screen_message {
-	display: none;
-	text-align: center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-}
-
-.full_screen_message p {
-	margin: 0;
-	margin-bottom: 50px;
-}
-
 #difficulty_display {
 	display: flex;
 	flex-direction: row;
