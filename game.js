@@ -10,7 +10,6 @@ set_difficulty(3);
 
 function generate_stars(count)
 {
-
     var container = document.getElementById("difficulty_display");
 
     container.innerHTML = "";
@@ -20,7 +19,6 @@ function generate_stars(count)
         var digit = document.createElement("div");
         container.append(digit);
     }
-
 }
 
 function set_difficulty(difficulty)
@@ -31,12 +29,12 @@ function set_difficulty(difficulty)
     switch (difficulty)
     {
         case 1:
-            label.innerText = "Retarded";
+            label.innerText = "Slow";
             watching_duration = 2000;
             generate_digits(3);
             break;
         case 2:
-            label.innerText = "Stupid";
+            label.innerText = "Lazy";
             watching_duration = 2000;
             generate_digits(4);
             break;
