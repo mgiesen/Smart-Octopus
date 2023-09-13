@@ -49,6 +49,7 @@ body {
 	box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
 	border: 2px solid rgb(34, 34, 34);
 	padding: 40px;
+	min-width: 300px;
 }
 
 #difficulty_display {
@@ -85,7 +86,7 @@ body {
 
 #page_title h1 {
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 30px;
 	margin: 0;
 }
 
