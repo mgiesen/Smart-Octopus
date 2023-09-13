@@ -31,12 +31,12 @@ function set_difficulty(difficulty)
     switch (difficulty)
     {
         case 1:
-            label.innerText = "Retarded";
+            label.innerText = "Slow";
             watching_duration = 2000;
             generate_digits(3);
             break;
         case 2:
-            label.innerText = "Stupid";
+            label.innerText = "Lazy";
             watching_duration = 2000;
             generate_digits(4);
             break;
@@ -46,7 +46,7 @@ function set_difficulty(difficulty)
             generate_digits(4);
             break;
         case 4:
-            label.innerText = "Smart";
+            label.innerText = "Active";
             watching_duration = 1000;
             generate_digits(5);
             break;
@@ -54,6 +54,11 @@ function set_difficulty(difficulty)
             label.innerText = "Clever";
             watching_duration = 1500;
             generate_digits(6);
+            break;
+        case 6:
+            label.innerText = "Smart";
+            watching_duration = 1200;
+            generate_digits(7);
             break;
     }
 

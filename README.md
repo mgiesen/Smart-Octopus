@@ -12,11 +12,12 @@ Smart Octopus is a [mini-game](https://mgiesen.github.io/SmartOctopus/) in the b
 2.  **Start Game**: Click on the "Power Button" to start the game.
 3.  **Select Difficulty**: By clicking on the octopus, you can set the level of difficulty. The difficulty levels are as follows:
 
-    - Retarded Octopus: 3 numbers, display duration 2000 ms
-    - Stupid Octopus: 4 numbers, display duration 2000 ms
-    - Basic Octopus: 4 numbers, display duration 1500 ms
-    - Smart Octopus: 5 numbers, display duration 1000 ms
-    - Clever Octopus: 6 numbers, display duration 1500 ms
+- Slow Octopus: Displays 3 numbers, display duration 2000 ms.
+- Lazy Octopus: Displays 4 numbers, display duration 2000 ms.
+- Basic Octopus: Displays 4 numbers, display duration 1500 ms.
+- Active Octopus: Displays 5 numbers, display duration 1000 ms.
+- Clever Octopus: Displays 6 numbers, display duration 1500 ms.
+- Smart Octopus: Displays 7 numbers, display duration 1200 ms.
 
 4.  **Watch the Numbers**: A sequence of numbers will be displayed for a limited time.
 5.  **Add the Numbers**: After the numbers disappear, increment each number by one and input the new sequence.
