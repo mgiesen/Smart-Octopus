@@ -1,10 +1,14 @@
 html {
-	background-color: black;
+	background-color: rgb(24, 24, 24);
 }
 
 body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	height: 100%;
+	min-height: 100vh;
 	padding: 0;
 	margin: 0;
 	color: white;
@@ -20,8 +24,11 @@ body {
 #app {
 	position: relative;
 	margin: auto;
-	padding: 30px;
-	max-width: 400px;
+	background-color: black;
+	border-radius: 35px;
+	box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+	border: 2px solid rgb(34, 34, 34);
+	padding: 40px;
 }
 
 #difficulty_display {
@@ -52,8 +59,7 @@ body {
 #page_title {
 	position: relative;
 	width: 100%;
-	margin-top: 80px;
-	box-sizing: border-box;
+	margin-top: 45px;
 	text-align: center;
 }
 
@@ -78,7 +84,6 @@ body {
 	width: 100%;
 	margin-top: 50px;
 	margin-bottom: 30px;
-	box-sizing: border-box;
 	text-align: center;
 	display: flex;
 	flex-direction: row;
@@ -95,7 +100,7 @@ body {
 
 #touch_input {
 	display: grid;
-	gap: 3%;
+	gap: 10px;
 	grid-template-areas: ". . ." ". . ." ". . ." ". . .";
 	justify-content: center;
 	grid-auto-flow: row;
@@ -145,7 +150,15 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-	#page_title {
-		margin-top: 25px;
+	html {
+		background-color: black;
+	}
+	body {
+		min-height: 0vh;
+	}
+	#app {
+		border: 0;
+		box-shadow: none;
+		padding: 0px;
 	}
 }
