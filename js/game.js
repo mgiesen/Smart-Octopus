@@ -10,8 +10,7 @@ set_difficulty(3);
 
 function generate_stars(count)
 {
-
-    var container = document.getElementById("difficulty_display");
+    var container = document.getElementById("difficulty_indicator");
 
     container.innerHTML = "";
 
@@ -20,13 +19,20 @@ function generate_stars(count)
         var digit = document.createElement("div");
         container.append(digit);
     }
-
 }
 
 function set_difficulty(difficulty)
 {
-
     let label = document.getElementById("difficulty");
+
+    if (difficulty < 1)
+    {
+        difficulty = 6;
+    }
+    else if (difficulty > 6)
+    {
+        difficulty = 1;
+    }
 
     switch (difficulty)
     {
@@ -60,17 +66,13 @@ function set_difficulty(difficulty)
             watching_duration = 1200;
             generate_digits(7);
             break;
-    }
-
-    if (difficulty < 6)
-    {
-        game_difficulty++;
-    } else
-    {
-        game_difficulty = 1;
+        default:
+            alert("Unvalid difficulty level!");
     }
 
     generate_stars(difficulty);
+
+    game_difficulty = difficulty;
 
 }
 
@@ -90,17 +92,20 @@ function generate_digits(count)
 
 }
 
-document.getElementById("page_title").addEventListener("click", function ()
+document.getElementById("prev_difficulty").addEventListener("click", function ()
 {
-
-    set_difficulty(game_difficulty);
+    set_difficulty(game_difficulty - 1);
     start_new_game();
+});
 
+document.getElementById("next_difficulty").addEventListener("click", function ()
+{
+    set_difficulty(game_difficulty + 1);
+    start_new_game();
 });
 
 function check_digit(input)
 {
-
     var digits = document.getElementById("digits").getElementsByTagName("h1");
     digits[digit_cursor].innerText = input.innerText;
 
@@ -109,7 +114,8 @@ function check_digit(input)
     if (input.innerText == correct_answer)
     {
         digits[digit_cursor].className = "correct";
-    } else
+    }
+    else
     {
         digits[digit_cursor].className = "wrong";
     }
@@ -118,7 +124,6 @@ function check_digit(input)
 
 var touch_click = function (e)
 {
-
     var digits = document.getElementById("digits").getElementsByTagName("h1");
     var input_digit = e.target;
 
@@ -133,7 +138,6 @@ var touch_click = function (e)
             start_new_game();
         }, 500);
     }
-
 };
 
 function enable_digit_events(trigger)
