@@ -2,7 +2,7 @@
 
 ## About the Game 🎯
 
-Smart Octopus is a [mini-game](https://mgiesen.github.io/SmartOctopus/) in the browser, designed to enhance cognitive skills such as working memory and mental arithmetic. Depending on the chosen difficulty level, the user is presented with a sequence of numbers for a limited time. The task is to not only remember the numbers but also to increment them mentally by one and then input the modified sequence.
+Smart Octopus is a [mini-game](https://mgiesen.github.io/Smart-Octopus/) in the browser, designed to enhance cognitive skills such as working memory and mental arithmetic. Depending on the chosen difficulty level, the user is presented with a sequence of numbers for a limited time. The task is to not only remember the numbers but also to increment them mentally by one and then input the modified sequence.
 
 ![Screenshot](readme/app_design.png)
 
