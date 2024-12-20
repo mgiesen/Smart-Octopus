@@ -8,7 +8,7 @@ Smart Octopus is a [mini-game](https://mgiesen.github.io/Smart-Octopus/) in the 
 
 ## How to Play? 🎮
 
-1.  **Open Game**: Open the game in your browser using this [link](https://mgiesen.github.io/SmartOctopus/).
+1.  **Open Game**: Open the game in your browser using this [link](https://mgiesen.github.io/Smart-Octopus/).
 2.  **Start Game**: Click on the "Power Button" to start the game.
 3.  **Select Difficulty**: By clicking on the octopus, you can set the level of difficulty. The difficulty levels are as follows:
 
