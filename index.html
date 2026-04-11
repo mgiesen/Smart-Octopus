@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,7 +17,7 @@
 
 <body>
 
-    <div id="github" onclick="window.location.href='https://github.com/mgiesen/Smart-Octopus'"></div>
+    <a id="github" href="https://github.com/mgiesen/Smart-Octopus" aria-label="GitHub Repository"></a>
 
     <div id="app">
 
@@ -30,17 +29,17 @@
             </div>
 
             <div class="octopus_icon_wrapper">
-                <img src="images/left.svg" id="prev_difficulty">
-                <img src="images/logo.svg">
-                <img src="images/right.svg" id="next_difficulty">
+                <img src="images/left.svg" id="prev_difficulty" alt="Previous difficulty">
+                <img src="images/logo.svg" alt="Smart Octopus Logo">
+                <img src="images/right.svg" id="next_difficulty" alt="Next difficulty">
             </div>
-           
+
             <div id="difficulty_indicator"></div>
-   
+
         </div>
 
         <div id="digits"></div>
-    
+
         <div id="touch_input">
             <div>1</div>
             <div>2</div>
@@ -52,18 +51,18 @@
             <div>8</div>
             <div>9</div>
             <div id="status_wrapper">
-                <img id="status_icon">
+                <img id="status_icon" alt="Game status">
                 <div id="progress_indicator"></div>
             </div>
             <div>0</div>
-            <div onclick="start_new_game()">
-                <img id="btn_start" src="images/start.svg">
+            <div>
+                <img id="btn_start" src="images/start.svg" alt="Start game">
             </div>
         </div>
-            
+
     </div>
 
-    <script type="text/javascript" src="js/game.js"></script>
+    <script src="js/game.js"></script>
 
 </body>
 
